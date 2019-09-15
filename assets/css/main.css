@@ -2256,7 +2256,7 @@
 		/*background: #fff;*/
 		background: #78512c;
 		border-radius: 6px;
-		box-shadow: 0 2px 0 0 #e5e5e5;
+		/*box-shadow: 0 0px 0 0 #e5e5e5; this was causing the white lip under the box*/
 		margin: 0 0 2em 0;
 		padding: 3em;
 	}
@@ -2274,7 +2274,7 @@
 		}
 
 		.box.features .features-row {
-			border-top: solid 2px #e5e5e5;
+			border-top: solid 2px #fff;
 			position: relative;
 		}
 
@@ -2299,7 +2299,7 @@
 				}
 
 					.box.features .features-row section:nth-child(2n):before {
-						background: #e5e5e5;
+						background: #fff;
 						content: '';
 						display: block;
 						height: 100%;
